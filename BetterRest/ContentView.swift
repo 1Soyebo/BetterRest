@@ -10,18 +10,28 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var someNumber = 8.0
+    @State private var wakeUp = Date()
     
     
     var body: some View {
-        Form{
-            HStack{
-                Text("\(someNumber, specifier: "%g")")
-                Stepper(value: $someNumber, in: 4...12, step: 0.25){
-                    
+        NavigationView{
+            Form{
+                HStack{
+                    Text("\(someNumber, specifier: "%g")")
+                    Stepper(value: $someNumber, in: 4...12, step: 0.25){
+                        
+                    }
                 }
+                
+                Section{
+                    DatePicker("Please enter a date", selection: $wakeUp, in: Date()...)
+                }
+                
+                
             }
-            
+            .navigationBarTitle(Text("Hmm"))
         }
+        
     }
 }
 
