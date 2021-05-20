@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7C75DA2655C1A400A95E82 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2B7C75D92655C1A400A95E82 /* SleepCalculator.mlmodel */; };
 		2BD000AD25C94CFA0071613E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD000AC25C94CFA0071613E /* AppDelegate.swift */; };
 		2BD000AF25C94CFA0071613E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD000AE25C94CFA0071613E /* SceneDelegate.swift */; };
 		2BD000B125C94CFA0071613E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD000B025C94CFA0071613E /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7C75D92655C1A400A95E82 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		2BD000A925C94CFA0071613E /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD000AC25C94CFA0071613E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD000AE25C94CFA0071613E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				2BD000B225C94CFE0071613E /* Assets.xcassets */,
 				2BD000B725C94CFE0071613E /* LaunchScreen.storyboard */,
 				2BD000BA25C94CFE0071613E /* Info.plist */,
+				2B7C75D92655C1A400A95E82 /* SleepCalculator.mlmodel */,
 				2BD000B425C94CFE0071613E /* Preview Content */,
 			);
 			path = BetterRest;
@@ -147,6 +150,7 @@
 			files = (
 				2BD000AD25C94CFA0071613E /* AppDelegate.swift in Sources */,
 				2BD000AF25C94CFA0071613E /* SceneDelegate.swift in Sources */,
+				2B7C75DA2655C1A400A95E82 /* SleepCalculator.mlmodel in Sources */,
 				2BD000B125C94CFA0071613E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
-				DEVELOPMENT_TEAM = 5M9L529UU2;
+				DEVELOPMENT_TEAM = 8Y2F29NLGD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BetterRest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,7 +313,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
-				DEVELOPMENT_TEAM = 5M9L529UU2;
+				DEVELOPMENT_TEAM = 8Y2F29NLGD;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BetterRest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.BetterRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
